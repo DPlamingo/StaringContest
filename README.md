@@ -36,7 +36,7 @@
 
 #  🙍팀원 소개
 - 이재진: 팀장, 인프라, AI
-- 김지수: 프론트엔드, 디자인, STOMP
+- <span style='background-color:#f6f8fa'> 김지수 : 프론트엔드, 디자인, STOMP</span>
 - 심상익: 프론트엔드, Openvidu, 게임 로직
 - 정종길: 프론트엔드, JWT, 게임 로직   
 - 장수영: 백엔드, Openvidu, Redis  
