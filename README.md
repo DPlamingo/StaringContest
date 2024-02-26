@@ -1,4 +1,4 @@
-Notion : https://www.notion.so/E206-11b7b17812d74f77aa8f5e73868bd6c6?pvs=4
+- Notion : https://www.notion.so/E206-11b7b17812d74f77aa8f5e73868bd6c6?pvs=4
 
 # 🔍프로젝트 소개
 
