@@ -1,4 +1,12 @@
-Notion : https://www.notion.so/E206-11b7b17812d74f77aa8f5e73868bd6c6?pvs=4
+## 담당 소개
+- 웹 RTC를 활용하여 실시간 눈싸움 웹 앱 게임 프로젝트를 진행하였습니다. 이 프로젝트에는 총 6명의 팀원이 참여하였으며, 저는 프론트 엔드를 담당하였습니다.
+
+프로젝트에서 제 역할은 디자인 및 STOMP 기능의 개발이었습니다. 피그마를 활용하여 디자인을 진행하였고, WebSocket을 활용하여 실시간 메세지 기능과 사용자 매칭 기능을 추가하였습니다. React와 Tailwind CSS를 함께 사용하여 프로젝트를 진행하였습니다. Tailwind CSS가 적용되지 않는 부분에 대해서는 기존 CSS를 사용하였습니다. WebSocket의 경우, 오픈 소스 코드를 커스터마이징하여 사용하였습니다.
+
+프로젝트를 진행하면서, 실시간 서비스를 제공하기 위해 WebSocket과 Redis를 함께 사용하였으나, RTC 기술인 Openvidu를 사용하면 WebSocket 없이 실시간 기능을 사용할 수 있음을 깨달았습니다. 하지만, 게임 매칭 이후에 Openvidu에 접속하도록 WebSocket으로 요청을 보내는 방식을 사용하였습니 다. 이는 눈 인식 AI를 RTC에 접목시키기 위함이었습니다.
+
+또한, WebSocket은 로그인부터 통신에 접속되도록 설정하여 실시간으로 사용자 참여 리스트를 활용할 수 있게 하였으며, 마지막으로, 유저의 편의성을 고려하여 모바일 기반의 웹앱을 만들며, PWA(Progress Web App)의 형태로 만들어 모바일로 테스트를 진행하였습니다.
+- Notion : https://www.notion.so/E206-11b7b17812d74f77aa8f5e73868bd6c6?pvs=4
 
 # 🔍프로젝트 소개
 
@@ -36,7 +44,7 @@ Notion : https://www.notion.so/E206-11b7b17812d74f77aa8f5e73868bd6c6?pvs=4
 
 #  🙍팀원 소개
 - 이재진: 팀장, 인프라, AI
-- 김지수: 프론트엔드, 디자인, STOMP
+- <span style='background-color:#f6f8fa'> 김지수 : 프론트엔드, 디자인, STOMP</span>
 - 심상익: 프론트엔드, Openvidu, 게임 로직
 - 정종길: 프론트엔드, JWT, 게임 로직   
 - 장수영: 백엔드, Openvidu, Redis  
@@ -224,36 +232,7 @@ Notion : https://www.notion.so/E206-11b7b17812d74f77aa8f5e73868bd6c6?pvs=4
 |랭킹 조회|클래식 랭킹 조회|GET|/api/point/rank/classic/{page}||[{nickname: "gildongnickname", profileImg: 2, point : 1000}]|
 ||아이템전 랭킹 조회|GET|/api/point/rank/item/{page}||[{nickname: "gildongnickname", profileImg: 2, point : 1000}]|
 # 🔧설계
-
-### 🔧아키텍처 설계
-![architecture.drawio](/uploads/3f64b61a05077a0f47347510d9faeed4/architecture.drawio.png)
-
-### 🔧DB 설계(ERD)
-![erd](/uploads/fd63705f3ca03287fd7d01faa48c06f8/erd.png)
-# 👀실제 화면
-
-## 랭킹
-![랭킹](/uploads/7432163771fc091f7aba747d35db1434/랭킹.jpg){: width="30%" height="30%"}
-
-## 로비
-![로비](/uploads/3aeda259d24d80529ea80082b509581c/로비.jpg){: width="30%" height="30%"}
-## 클래식전과 아이템전 중 하나를 선택할 수 있음
-![클래식전과아이템전](/uploads/c52e06e5cf6025e5248742a036643b31/클래식전과아이템전.jpg){: width="30%" height="30%"}
-## 매칭 찾는 중
-![매칭찾는중](/uploads/4dd467fe97c2d7fd17db2144af86146a/매칭찾는중.jpg){: width="30%" height="30%"}
-## 매칭성공
-![매칭성공](/uploads/4d6245d675689ab9d49fbb3c52053296/매칭성공.jpg){: width="30%" height="30%"}
-## 게임 준비
-![게임준비](/uploads/14b193c5592e79314405ee774a614ec1/게임준비.jpg){: width="30%" height="30%"}
-## 예상 승점
-![예상승점](/uploads/3bc7bc6195b81db6cd6f32e9faed7fbf/예상승점.jpg){: width="30%" height="30%"}
-## 게임 시작 직전
-![게임시작직전](/uploads/bceb6a07e82005803f3ab7b0a01022b4/게임시작직전.jpg){: width="30%" height="30%"}
-## 게임 진행 중
-![게임진행중](/uploads/49f9c5db94f8510cfd492b191a25bfb8/게임진행중.jpg){: width="30%" height="30%"}
-## 게임 승리 후의 화면
-![게임승리후](/uploads/780b318d7d09a2bae3510b92460ea226/게임승리후.jpg){: width="30%" height="30%"}
-
+pul
 
 
 
