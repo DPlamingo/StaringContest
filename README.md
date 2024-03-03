@@ -57,7 +57,7 @@
 
 - 랭킹보기
 
-<img src="IMG/SS_Ranking.jpg" width="35%" height="35%">
+<img src="IMG/PWA.jpg" width="35%" height="35%">
 
 - PWA
 
